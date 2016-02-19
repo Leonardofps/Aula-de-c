@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(){
+	int n,s;
+	printf("Digite o numero: ");
+	scanf("%d", &n);
+	s=(1+n)*n/2;	
+	
+	printf("O resultado final eh: %d", s);
+	getch();
+	return 0;
+}
